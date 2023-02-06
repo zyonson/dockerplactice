@@ -1,7 +1,13 @@
 example_id                                      | status  | run_time        |
 ----------------------------------------------- | ------- | --------------- |
 ./spec/helpers/static_pages_helper_spec.rb[1:1] | pending | 0.00001 seconds |
-./spec/requests/static_pages_spec.rb[1:1:1]     | passed  | 0.02029 seconds |
-./spec/requests/static_pages_spec.rb[1:2:1]     | passed  | 0.01792 seconds |
-./spec/requests/static_pages_spec.rb[1:3:1]     | passed  | 0.01821 seconds |
-./spec/requests/static_pages_spec.rb[1:4:1]     | passed  | 0.76323 seconds |
+./spec/helpers/users_helper_spec.rb[1:1]        | pending | 0.00002 seconds |
+./spec/requests/static_pages_spec.rb[1:1:1]     | passed  | 0.91027 seconds |
+./spec/requests/static_pages_spec.rb[1:2:1]     | passed  | 0.03167 seconds |
+./spec/requests/static_pages_spec.rb[1:3:1]     | passed  | 0.03171 seconds |
+./spec/requests/static_pages_spec.rb[1:4:1]     | passed  | 0.02462 seconds |
+./spec/requests/users_spec.rb[1:1:1]            | passed  | 0.02604 seconds |
+./spec/system/static_pages_spec.rb[1:1]         | passed  | 0.05041 seconds |
+./spec/system/static_pages_spec.rb[1:2]         | passed  | 0.03888 seconds |
+./spec/system/static_pages_spec.rb[1:3]         | passed  | 0.03797 seconds |
+./spec/system/static_pages_spec.rb[1:4]         | passed  | 0.04966 seconds |
