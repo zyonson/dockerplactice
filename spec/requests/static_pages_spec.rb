@@ -11,7 +11,7 @@ RSpec.describe 'StaticPages', type: :request do
 
   describe 'GET /help' do
     it 'returns http success' do
-      get static_pages_help_path
+      get help_path
       expect(response).to have_http_status(:success)
       expect(response.body).to include 'Help | Ruby on Rails Tutorial Sample App'
     end
@@ -19,7 +19,7 @@ RSpec.describe 'StaticPages', type: :request do
 
   describe 'GET /about' do
     it 'returns http success' do
-      get static_pages_about_path
+      get about_path
       expect(response).to have_http_status(:success)
       expect(response.body).to include 'About | Ruby on Rails Tutorial Sample App'
     end
@@ -27,7 +27,7 @@ RSpec.describe 'StaticPages', type: :request do
 
   describe 'GET /contact' do
     it 'returns http success' do
-      get static_pages_contact_path
+      get contact_path
       expect(response).to have_http_status(:success)
       expect(response.body).to include 'Contact | Ruby on Rails Tutorial Sample App'
     end
